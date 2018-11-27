@@ -29,4 +29,5 @@ export interface EditorTarget extends EventTarget {
   index?: number;
   checked?: boolean;
   configValue?: string;
+  selected?: string;
 }
